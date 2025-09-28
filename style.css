@@ -1,0 +1,80 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(90deg, #a2d6c9, #fff, #90c3f7);
+      /* 金屬感背景 */
+      color: #333;
+      display: flex;
+      flex-direction:row;
+      /* align-items: center; */
+      min-height: 100vh;
+}
+
+.container {
+      text-align: center;
+      margin-top: 50px;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+      max-width: 800px;
+}
+
+.self-info{
+      margin-left: 50px;
+      /* margin-top: ; */
+      width: 200px;
+      height: 500px;
+}
+
+.row_container{
+      margin-left: 15%;
+}
+
+.flex{
+      display: flex;
+      flex-direction:row;      
+}
+
+.ive_img{
+      width: 300px;
+      margin: 20px;
+      border-radius: 20%;
+      border: 3px solid #ea9ae6;
+}
+
+.profile-pic {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #666;
+      margin-bottom: 15px;
+}
+
+h1 {
+      margin: 10px 0;
+      font-size: 1.8em;
+}
+
+p {
+      margin: 8px 0;
+}
+
+.social-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 1.2em;
+      color: #333;
+      transition: color 0.3s;
+}
+
+.social-links a:hover {
+      color: #0077b6;
+}
+
+.interests {
+      margin-top: 15px;
+      font-size: 0.95em;
+}
